@@ -1,26 +1,17 @@
-#include <iostream>
-using namespace std;
+#include <stdio.h>
 
-void inputAndShow()
+void inputAnadShow()
 {
-    int Math,Physics,Chemistry;
+    int Math = 80;
+    int Physics = 75;
+    int Chemisty = 85;
 
-    cout << "Enter Math score:";
-    cin >> Math;
-
-    cout << "Enter Physics score:";
-    cin >> Physics;
-
-    cout << "Enter Chemistry score:";
-    cin >> Chemistry;
-
-    cout << "\nScores\n";
-    cout << "Math:" << Math << endl;
-    cout << "Physics:" << Physics << endl;
-    cout << "Chemistry:" << Chemistry << endl;
+    printf("Math: %d\n",Math);
+    printf("Physics: %d\n",Physics);
+    printf("Chemistry: %d\n",Chemisty);
 }
 
-int main() 
+int main()
 {
     inputAndShow();
 
